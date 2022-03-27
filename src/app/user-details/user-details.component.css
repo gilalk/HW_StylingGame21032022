@@ -1,0 +1,15 @@
+.specialDesign{
+    color: aqua;
+    background-color: black;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 400;
+}
+
+.firstClass{
+    font-style: italic;
+}
+
+.secondClass{
+    background-color: blueviolet;
+}

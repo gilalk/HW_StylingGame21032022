@@ -1,0 +1,31 @@
+<!--section 1-->
+<p [style.color]="colorForP">user-details works!</p>
+
+<!--section 2-->
+<button (click)="ChangeColor()">Change Background</button>
+
+<p [style.backgroundColor]="hasSpecialBackground ? 'green' : 'yellow'">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Voluptates sequi quibusdam, velit ab suscipit libero est
+    beatae aperiam vel? Doloribus perspiciatis libero officiis, 
+    sit unde nihil commodi maiores laboriosam iure!
+</p>
+
+<!--section 3-->
+<p [ngStyle]="styles">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Voluptates sequi quibusdam, velit ab suscipit libero est
+   beatae aperiam vel? Doloribus perspiciatis libero officiis, 
+   sit unde nihil commodi maiores laboriosam iure!
+</p>
+
+<!--section 4-->
+<p [class.specialDesign]="isSpecial">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Voluptates sequi quibusdam, velit ab suscipit libero est
+   beatae aperiam vel? Doloribus perspiciatis libero officiis, 
+   sit unde nihil commodi maiores laboriosam iure!
+</p>
+
+<p [ngClass]="myClasses">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Voluptates sequi quibusdam, velit ab suscipit libero est
+   beatae aperiam vel? Doloribus perspiciatis libero officiis, 
+   sit unde nihil commodi maiores laboriosam iure!
+</p>
